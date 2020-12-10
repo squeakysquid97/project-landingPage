@@ -1,0 +1,156 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  border-radius: 0.3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  text-transform: uppercase;
+  height: 3rem;
+  background: lightgreen;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: 0.2rem 0.2rem grey;
+  background-color: #3fb93a;
+}
+
+button:visited {
+  background: lightgray;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+a {
+  text-transform: uppercase;
+  color: black;
+}
+
+a:hover {
+  color: grey;
+}
+
+header p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+header nav {
+  height: 5vh;
+  justify-content: space-between;
+  display: flex;
+}
+
+header nav img:first-child {
+  margin: -1rem 5rem;
+}
+
+header nav button {
+  margin: 2.3rem 0;
+}
+
+header nav a {
+  font-size: 1.5rem;
+  margin: 3rem 0;
+}
+
+header nav input {
+  height: 2vh;
+  margin: 2rem 0;
+}
+
+header nav img {
+  height: 3vh;
+}
+
+main {
+  padding: 2rem 5rem;
+}
+
+main p {
+  font-size: 2rem;
+}
+
+main aside {
+  border: 1px solid black;
+  width: 50%;
+  background: skyblue;
+  padding: 0 2rem;
+}
+
+main header aside {
+  flex-direction: column;
+  background: white;
+}
+main ul li {
+  font-size: 1.5rem;
+}
+
+section {
+  padding: 1rem 1rem;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+section img {
+  padding: 2rem 5rem;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+section button {
+  width: 12vh;
+  height: 3vh;
+  justify-content: center;
+  align-self: center;
+  background: orangered;
+}
+
+section button:active {
+  background: lightcoral;
+}
+
+section:last-child {
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+}
+
+footer nav {
+  padding: 1rem;
+  margin: 1rem;
+  justify-content: space-between;
+}
+
+footer nav a {
+  margin: 3rem;
+  padding: 3rem;
+}
