@@ -30,16 +30,16 @@ button:visited {
 
 h1 {
   text-align: center;
-  font-size: 3.5rem;
+  font-size: 4vh;
 }
 
 h2 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 3vh;
 }
 
 h3 {
-  font-size: 2.5rem;
+  font-size: 2.5vh;
 }
 
 a {
@@ -51,34 +51,37 @@ a:hover {
   color: grey;
 }
 
+header h1 {
+  margin: 3rem 0 auto;
+}
+
 header p {
   font-size: 2rem;
   text-align: center;
 }
 
 header nav {
+  display: flex;
+  margin: 2rem 1rem;
   height: 5vh;
   justify-content: space-between;
   display: flex;
 }
-
-header nav img:first-child {
-  margin: -1rem 5rem;
+header nav button {
 }
 
-header nav button {
-  margin: 2.3rem 0;
+header nav img:first-child {
+  height: 5vh;
 }
 
 header nav a {
   font-size: 1.5rem;
-  margin: 3rem 0;
 }
 
-header nav input {
+/* header nav input {
   height: 2vh;
-  margin: 2rem 0;
-}
+  margin: 5vh 0;
+} */
 
 header nav img {
   height: 3vh;
@@ -86,25 +89,43 @@ header nav img {
 
 main {
   padding: 2rem 5rem;
+  display: flex;
+  flex-direction: column;
 }
 
-main p {
-  font-size: 2rem;
+main header aside nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  padding-top: 2rem;
+}
+
+main img {
+  width: 70%;
+}
+main img:nth-child(1) {
+  width: 50%;
 }
 
 main aside {
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+main aside:first-of-type {
   width: 50%;
-  background: skyblue;
-  padding: 0 2rem;
 }
 
-main header aside {
-  flex-direction: column;
-  background: white;
+main p {
+  font-size: 2vh;
 }
+
 main ul li {
-  font-size: 1.5rem;
+  font-size: 2vh;
+}
+
+main aside button {
+  width: 16vw;
 }
 
 section {
@@ -116,6 +137,7 @@ section {
 }
 
 section img {
+  width: 60%;
   padding: 2rem 5rem;
   margin: 0 auto;
   justify-content: center;
@@ -123,7 +145,7 @@ section img {
 }
 
 section button {
-  width: 12vh;
+  width: fit-content;
   height: 3vh;
   justify-content: center;
   align-self: center;
@@ -138,19 +160,25 @@ section:last-child {
   text-align: center;
 }
 
+section ul {
+  flex-direction: column;
+  display: flex;
+  margin: 0 auto;
+  width: 50%;
+}
+
 footer {
   display: flex;
-  justify-content: space-around;
-  font-size: 2rem;
+
+  font-size: 2vh;
 }
 
 footer nav {
-  padding: 1rem;
-  margin: 1rem;
+  margin: 2rem 1rem;
+  height: 5vh;
   justify-content: space-between;
+  display: flex;
 }
 
 footer nav a {
-  margin: 3rem;
-  padding: 3rem;
 }
