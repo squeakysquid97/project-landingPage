@@ -7,143 +7,171 @@
 </head>
 
 <body>
-  <header>
-    <nav>
+  <header class="body__header">
+    <nav class="body__header--nav">
       <!-- Add classes to each a to make styling easier -->
-      <a href="#">Explore</a>
-      <a href="#">Start a project</a>
-      <a href="index.html"><img src="logo.png"></a>
-      <input type="text" placeholder="Search">
-      <a href="#">Log in</a>
+      <a href="#" class="body__nav--listItem ">Explore</a>
+      <a href="#" class="body__nav--listItem ">Start a project</a>
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <a href="index.html" class="body__logo"><img src=" logo.png"></a>
+      <div class="spacer"></div>
+      <div class="spacer"></div>
+      <input type="text" placeholder="Search" class="body__nav--search ">
+      <a href="#" class="body__nav--listItem ">Log in</a>
     </nav>
-    <h1>The Minimalist’s Wall Calendar Visualize Your Year</h1>
-    <p>Minimalist, forgiving, and beautiful. A wall calendar designed to make 2021 feel like a breath of fresh air.</p>
+
   </header>
   <main>
-    <!-- TODO: wrap these in divs so the aside shows up next to the hero-->
-    <img src="hero.png" alt="The calendar in a desk setting">
-    <p>Project we Love Product Design Cambridge, MA</p>
-    <aside>
-      <p>
-        $13,757
-        pledged of $1,200 goal
-      </p>
-      <p>
-        215
-        backers
-      </p>
-      <p>
-        19
-        days to go
-      </p>
-      <button>Back this Project</button>
-      <button>Remind me</button>
-      <p>
-        <sub>All or nothing. This project will only be funded if it reaches its goal by Thu, November 26 2020 1:35 PM
-          CST.</sub>
-      </p>
-    </aside>
-    <header>
+    <div class="main__heading--container">
+      <div class="main__heading--box">
+        <h1 class="main__heading--heading">The Minimalist’s Wall Calendar<span class="break"></span> Visualize Your Year
+        </h1>
+        <p class="main__heading--sub">Minimalist, forgiving, and beautiful. A wall calendar designed to make 2021 feel
+          like a breath of fresh air.</p>
+      </div>
+      <div class="main__heading--content">
+        <!-- TODO: wrap these in divs so the aside shows up next to the hero-->
+        <div class="main__hero--box">
+          <img src="hero.png" alt="The calendar in a desk setting" class="main__hero">
+          <p class="hero__sub">Project we Love Product Design Cambridge, MA</p>
+        </div>
+        <aside class="hero__aside">
+          <p class="hero__aside--content">
+            $13,757
+            pledged of $1,200 goal
+          </p>
+          <p class="hero__aside--content">
+            215
+            backers
+          </p>
+          <p class="hero__aside--content">
+            19
+            days to go
+          </p>
+          <button class="btn--back hero__aside--content">Back this Project</button>
+          <button class="btn--remind hero__aside--content">Remind me</button>
+          <p class="hero__aside--content">
+            All or nothing. This project will only be funded if it reaches its goal by Thu, November 26 2020 1:35
+            PM
+            CST.
+          </p>
+        </aside>
+      </div>
+    </div>
+    <div class="main__nav--container">
       <!-- TODO: add classes so this shows up nex to the hero -->
-      <nav>
-        <a href="#">Campaign</a> <a href="#">FAQ</a> <a href="#">Updates<sup>2</sup></a> <a
-          href="#">Comments<sup>19</sup></a> <a href="#">Community</a>
-        <button>Back this Project</button>
-        <button>Remind me</button>
+      <nav class="main__nav">
+        <a class="main__nav--listItem" href="#">Campaign</a>
+        <a href="#" class="main__nav--listItem">FAQ</a>
+        <a href="#" class="main__nav--listItem">Updates<sup>2</sup></a>
+        <a href="#" class="main__nav--listItem">Comments<sup>19</sup></a>
+        <a href="#" class="main__nav--listItem">Community</a>
+        <button class="btn main__nav--listItem">Back this Project</button>
+        <button class="btn main__nav--listItem">Remind me</button>
       </nav>
-      <aside>
-        <nav>
-          <!-- TODO: link to the right part of the document -->
-          <a href="#">STORY</a>
-          <a href="#">RISKS</a>
-          <a href="#">ENVIRONMENTAL
-            COMMITMENTS</a>
-        </nav>
-      </aside>
-    </header>
-    <section>
-      <h2>Story</h2>
-      <p><strong>Hi there! We're IOTA Inc.</strong> </p>
-      <p>We’ve re-designed the calendar to simplify your life. After two previously successful calendar Kickstarters,
-        we’re
-        back
-        with our 2021 version - now made to be as forgiving as a whiteboard, yet as beautiful as an art piece.</p>
-      <p>To preorder and make it a reality, click FBack This Project! <a href="#">Press Kit</a></p>
-      <img src="articlegif.gif" alt="The calendar showcased on a desk">
-      <img src="complicated.png"
+    </div>
+    <section class="main__section">
+      <div class="section__story">
+        <h2 class="section--heading">Story</h2>
+        <p class="section--paragraph bold">Hi there! We're IOTA Inc.</p>
+        <p class="section--paragraph">We’ve re-designed the calendar to simplify your life. After two previously
+          successful calendar Kickstarters,
+          we’re
+          back
+          with our 2021 version - now made to be as forgiving as a whiteboard, yet as beautiful as an art piece.</p>
+        <p class="section__story--paragraph">To preorder and make it a reality, click Back This Project! <a href=" #">
+            Press Kit</a></p>
+      </div>
+      <img src="articlegif.gif" class="section__image" alt="The calendar showcased on a desk">
+      <img class="section__image complicated" src="complicated.png"
         alt="When a complicated life met a simple solution, The IOTA Inc, Wall Calendar was born.">
-      <img src="minimal.png" alt="The calendar displayed with it's packaging.">
-      <img src="forgiving.gif" alt="Shows the calendar being marked up and then wiped away.">
-      <img src="beautiful.png" alt="The calendar with a beautiful plant on a desk">
-      <h2>Use it However You'd Like</h2>
-      <p>Plan vacations, birthdays, or anniversaries. Make a colored Gantt chart. Start bullet journaling. Count the
-        days as they
-        pass. This calendar provides just enough structure without getting in the way.</p>
-      <p>Funny thing is, it looks so nice, that you might just want to leave it alone.
-      </p>
-      <img src="markingup.gif" alt="Shows the calendar being marked up">
-      <h2>Testimonials from 2019 and 2020</h2>
-      <ul>
-        <li><q>I'm a writer working on my first novel and the Minimalist calendar has been PERFECT for me. I love that
-            it reflects the
-            fluidity and non-stop reality of time and shows me in one view the entire year, past and present.</q>
-          –Laura, Portland
-          Oregon</li>
-        <li><q>We got a lot of use as a family calendar keeping us on the same page… Now I’m hooked!</q> –Jesse,
-          Denver Colorado</li>
-        <li><q>Your calendar has had a pretty significant effect on my life. By forcing myself to realize that time is
-            passing, and
-            questioning how important the thing that I'm spending my hours on, I think I've truly been living a more
-            fulfilling
-            life</q> –Phil, New York City
-        </li>
-      </ul>
-      <img src="social.gif" alt="Social media posts about the calendar">
-      <h2>Timeline</h2>
-      <img src="timeline.png" alt="the timeline for the release of the calendar">
-      <h2>Made by People Who Care</h2>
-      <p>Carefully designed in Cambridge, and printed with love in Nashville. The people who’ve touched this product
-        have had a
-        love for minimal, yet high-quality design.
-      </p>
-      <ul>
-        <li>Nick, the original calendar designer, has spent two years refining the design.</li>
-        <li>Our printer has been operating for over 30+ years. You could say that they are world-class at what they
-          do.
-        </li>
-      </ul>
-      <h3>Risks and Challenges</h3>
-      <p>Having done this project two previous times (check out Nick's profile under the bios to take a look at them),
-        it's hard
-        to see any specific problems that might arise. We have a relationship with our printer whom we trust in
-        Nashville. We've
-        partnered with a fulfillment center not too far away to ensure that we can get the product to you on time. We
-        are fairly
-        confident that we can get the calendar into U.S. households before Christmas.
-      </p>
-      <a href="#">
-        <p>Learn about accountability on Kickstarter</p>
-      </a>
-      <h3>Environmental Commitments</h3>
-      <p><a href="#">Visit our Environmental Resources Center</a>to learn how kickstarter encourages sustainable
-        practices.</p>
-      <h3>Long-lasting design</h3>
-      <p>We've changed the calendar materials this year so that it acts as a dry-erase whiteboard. No more making a
-        mistake and
-        feeling to need to throw out the entire thing!</p>
+      <img class="section__image" src="minimal.png" alt="The calendar displayed with it's packaging.">
+      <img class="section__image" src="forgiving.gif" alt="Shows the calendar being marked up and then wiped away.">
+      <img class="section__image" src="beautiful.png" alt="The calendar with a beautiful plant on a desk">
+      <div class="section__story">
+        <h2>Use it However You'd Like</h2>
+        <p>Plan vacations, birthdays, or anniversaries. Make a colored Gantt chart. Start bullet journaling. Count the
+          days as they
+          pass. This calendar provides just enough structure without getting in the way.</p>
+        <p>Funny thing is, it looks so nice, that you might just want to leave it alone.
+        </p>
+      </div>
+      <img src="markingup.gif" class="section__image" alt="Shows the calendar being marked up">
+      <div class="section__story">
+        <h2>Testimonials from 2019 and 2020</h2>
+        <ul>
+          <li><q>I'm a writer working on my first novel and the Minimalist calendar has been PERFECT for me. I love that
+              it reflects the
+              fluidity and non-stop reality of time and shows me in one view the entire year, past and present.</q>
+            –Laura, Portland
+            Oregon</li>
+          <li><q>We got a lot of use as a family calendar keeping us on the same page… Now I’m hooked!</q> –Jesse,
+            Denver Colorado</li>
+          <li><q>Your calendar has had a pretty significant effect on my life. By forcing myself to realize that time is
+              passing, and
+              questioning how important the thing that I'm spending my hours on, I think I've truly been living a more
+              fulfilling
+              life</q> –Phil, New York City
+          </li>
+        </ul>
+      </div>
+      <img src="social.gif" class="section__image" alt="Social media posts about the calendar">
+      <div class="section__timeline">
+        <h2>Timeline</h2>
+      </div>
+      <img src="timeline.png" class="section__image timeline" alt="the timeline for the release of the calendar">
+      <div class="section__story">
+        <h2>Made by People Who Care</h2>
+        <p>Carefully designed in Cambridge, and printed with love in Nashville. The people who’ve touched this product
+          have had a
+          love for minimal, yet high-quality design.
+        </p>
+        <ul>
+          <li>Nick, the original calendar designer, has spent two years refining the design.</li>
+          <li>Our printer has been operating for over 30+ years. You could say that they are world-class at what they
+            do.
+          </li>
+        </ul>
+      </div>
+      <div class="section__story">
+        <h3>Risks and Challenges</h3>
+        <p>Having done this project two previous times (check out Nick's profile under the bios to take a look at them),
+          it's hard
+          to see any specific problems that might arise. We have a relationship with our printer whom we trust in
+          Nashville. We've
+          partnered with a fulfillment center not too far away to ensure that we can get the product to you on time. We
+          are fairly
+          confident that we can get the calendar into U.S. households before Christmas.
+        </p>
+        <a href="#">
+          <p>Learn about accountability on Kickstarter</p>
+        </a>
+      </div>
+      <div class="section__story">
+        <h3>Environmental Commitments</h3>
+        <p><a href="#">Visit our Environmental Resources Center</a>to learn how kickstarter encourages sustainable
+          practices.</p>
+        <h3>Long-lasting design</h3>
+        <p>We've changed the calendar materials this year so that it acts as a dry-erase whiteboard. No more making a
+          mistake and
+          feeling to need to throw out the entire thing!</p>
+      </div>
     </section>
 
-    <section>
-      <p>Questions about this project? <a href="#">Check out the FAQ</a></p>
-      <button>Report this project to Kickstarter</button>
+    <section class="section__bottom">
+      <p class="section__bottom--paragraph">Questions about this project? <a href="#">Check out the FAQ</a></p>
+      <button class="btn btn--report">Report this project to Kickstarter</button>
     </section>
 
 
   </main>
   <footer>
-    <nav>
-      <a href="#">Arts Comics</a> <a href="#">Illustration</a> <a href="#">Design & Tech</a> <a href="#">Film</a>
-      <a href="#">Food & Craft</a> <a href="#">Games</a> <a href="#">Music</a> <a href="#">Publishing</a>
+    <nav class="footer__nav">
+      <a class="footer__nav--listItem" href="#">Arts Comics</a> <a href="#">Illustration</a> <a href="#">Design &
+        Tech</a> <a href="#">Film</a>
+      <a class="footer__nav--listItem" href="#">Food & Craft</a> <a href="#">Games</a> <a href="#">Music</a> <a
+        href="#">Publishing</a>
     </nav>
   </footer>
 </body>
