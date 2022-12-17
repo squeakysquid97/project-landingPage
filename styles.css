@@ -9,9 +9,6 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-/* body {
-} */
-
 .bold {
   font-weight: 600;
 }
@@ -48,12 +45,19 @@ button:active {
 }
 .body__header--nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  height: 3rem;
+  text-align: left !important;
 }
 
 .body__nav--listItem {
   text-align: center;
   width: 15rem;
-  padding: 9px;
+  padding: 2rem;
   font-size: 1.2rem;
 }
 
@@ -175,6 +179,10 @@ footer {
 
   .body__header--nav {
     margin: 5rem;
+  }
+
+  .body__header--nav input {
+    height: 1rem;
   }
   .body__nav--listItem {
     display: block;
